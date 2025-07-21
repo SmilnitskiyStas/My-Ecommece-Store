@@ -1,16 +1,17 @@
-import React, { useState, useEffect} from 'react';
-import { supabase } from './utils/supabase';
+// import React from 'react';
+// import { supabase } from './utils/supabase';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ProductList from './components/ProductList';
+import ProductDetail from './components/ProductDetail';
 
-const ProductDetail = () => {
-  return (
-    <div className='min-h-screen-minus-navbar flex items-center justiry-center'>
-      <h2 className='text-2xl font-bold'>Деталі продукту</h2>
-    </div>
-  );
-};
+// const ProductDetail = () => {
+//   return (
+//     <div className='min-h-screen-minus-navbar flex items-center justiry-center'>
+//       <h2 className='text-2xl font-bold'>Деталі продукту</h2>
+//     </div>
+//   );
+// };
 
 function App() {
   return (
